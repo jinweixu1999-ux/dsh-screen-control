@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "桌面控制",
+    "description": "截图并驱动真实的鼠标键盘，打字前强制校验目标窗口，拒绝盲打。",
+    "detail": "docs/DETAIL.md"
+  }
+}

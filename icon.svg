@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Screen control">
+  <defs>
+    <linearGradient id="sc-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4b6fff"/>
+      <stop offset="1" stop-color="#6c5ce7"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="90" height="90" rx="21" fill="url(#sc-bg)"/>
+  <rect x="23" y="21" width="50" height="34" rx="4" fill="none" stroke="#ffffff" stroke-opacity="0.92" stroke-width="4"/>
+  <path d="M48 55v7" stroke="#ffffff" stroke-opacity="0.92" stroke-width="4" stroke-linecap="round"/>
+  <path d="M39 64h18" stroke="#ffffff" stroke-opacity="0.92" stroke-width="4" stroke-linecap="round"/>
+  <path d="M41 29l17 11-6 2.6-3.2 6.1z" fill="#ffffff"/>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Screen control",
+    "description": "Capture the Windows desktop and drive the real mouse and keyboard, with a focus guard that refuses blind keystrokes.",
+    "detail": "docs/DETAIL.md"
+  }
+}

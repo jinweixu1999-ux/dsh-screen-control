@@ -1,0 +1,52 @@
+{
+  "name": "dsh-screen-control",
+  "version": "0.1.0",
+  "description": "Screen capture plus real mouse and keyboard control for DeepSeek Harness on Windows, with a focus guard that refuses blind keystrokes.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "bin",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "computer-use",
+    "automation",
+    "windows"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinweixu1999-ux/dsh-screen-control.git"
+  },
+  "homepage": "https://github.com/jinweixu1999-ux/dsh-screen-control#readme",
+  "bugs": {
+    "url": "https://github.com/jinweixu1999-ux/dsh-screen-control/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.2-rc.1 <0.2.3-0",
+    "node": ">=20"
+  },
+  "os": [
+    "win32"
+  ],
+  "license": "MIT"
+}
