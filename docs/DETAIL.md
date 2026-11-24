@@ -39,17 +39,13 @@ Agent 在 DSH 里能读写文件、能跑命令，但看不见屏幕，也点不
 
 ## 安装
 
-```
-dsh plugin --profile web add dsh-screen-control
+把本仓库目录交给 **插件 → 添加插件** 安装（选含 `package.json` 的那一层），装完重启应用使工具进入会话。命令行等价做法：
+
+```powershell
+"<安装目录>\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add "<仓库目录的绝对路径>"
 ```
 
-桌面端用应用自带的 CLI：
-
-```
-"<安装目录>\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add dsh-screen-control
-```
-
-也可以把仓库目录直接交给 **插件 → 添加插件** 安装本地目录。装完重启应用使工具进入会话。
+npm 包 `dsh-screen-control` 发布后，也可以直接按包名安装。
 
 ## 许可
 

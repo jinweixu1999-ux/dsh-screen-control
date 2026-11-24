@@ -19,14 +19,16 @@ Screen capture and real mouse/keyboard control for DeepSeek Harness on Windows.
 
 ## 安装
 
-```sh
-dsh plugin --profile web add dsh-screen-control
-```
-
-Windows 桌面端：
+**从本仓库安装（现在就能用）：** 打开 DSH 的 **插件 → 添加插件**，选择本仓库目录（含 `package.json` 的那一层），装完重启应用。命令行等价做法：
 
 ```powershell
-"<安装目录>\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add dsh-screen-control
+"<安装目录>\resources\runtime\cli\bin\dsh.cmd" plugin --profile desktop add "<仓库目录的绝对路径>"
+```
+
+**从 npm 安装（尚未发布）：** 发布后可用
+
+```sh
+dsh plugin add dsh-screen-control
 ```
 
 ## 限制
